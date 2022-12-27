@@ -1,0 +1,11 @@
+Color Hunt (for choosing color palattes)
+https://colorhunt.co/
+
+TCL tk Docs: after()
+https://tcl.tk/man/tcl8.6/TclCmd/after.htm
+
+Strongly typed vs. dynamic languages
+https://stackoverflow.com/questions/11328920/is-python-strongly-typed
+
+
+
