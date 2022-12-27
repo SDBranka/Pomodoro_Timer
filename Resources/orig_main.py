@@ -16,7 +16,6 @@ LONG_BREAK_MIN = 20
 # SHORT_BREAK_MIN = .1
 # LONG_BREAK_MIN = .1
 reps = 0
-cycles = 0
 timer = None
 
 
@@ -26,11 +25,8 @@ def reset_timer():
     canvas.itemconfig(timer_text, text="00:00")
     timer_label.config(text="Timer")
     check_marks.config(text="")
-    cycle_check_marks.config(text="")
     global reps
     reps = 0
-    global cycles
-    cycles = 0
     # reactivate start button
     start_button["state"] = "normal"
 
@@ -73,30 +69,16 @@ def count_down(count):
         global timer
         timer = window.after(1000, count_down, count - 1)
     else:
-        global reps
-        global cycles
-
         # Make the window pop to forefront of screen
         window.attributes('-topmost',True)
         # Allow for window to be pushed to the background
         window.after_idle(window.attributes,'-topmost',False)
-
         start_timer()
         marks = ""
-        cycle_marks = ""
-        if reps == 9:
-            reps = 0
-            cycles += 1
         work_sessions = math.floor(reps/2)
         for _ in range(work_sessions):
             marks += "✔"
-        for _ in range(cycles):
-            cycle_marks += "✔"
         check_marks.config(text = marks)
-        cycle_check_marks.config(text = cycle_marks)
-
-
-
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -150,13 +132,6 @@ check_marks = tkinter.Label(text = marks,
                             fg = GREEN, bg = YELLOW
 )
 check_marks.grid(row = 3, column = 1)
-
-cycle_marks = ""
-cycle_check_marks = tkinter.Label(text=cycle_marks,
-                            font = ("Arial", 16, "bold"),
-                            fg = RED, bg = YELLOW
-)
-cycle_check_marks.grid(row=4, column=1)
 
 
 window.mainloop()
