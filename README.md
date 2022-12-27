@@ -12,7 +12,7 @@
     <img src="https://github.com/SDBranka/Pomodoro_Timer/blob/main/Resources/Screenshots/Start_screenshot.png" width=22% alt="start image"/>
     <img src="https://github.com/SDBranka/Pomodoro_Timer/blob/main/Resources/Screenshots/Work_screenshot.png" width=22% alt="work image"/>
     <img src="https://github.com/SDBranka/Pomodoro_Timer/blob/main/Resources/Screenshots/Break_screenshot.png" width=22% alt="break image"/>
-    <img src="https://github.com/SDBranka/Pomodoro_Timer/blob/main/Resources/Screenshots/LongBreak_screenshot.png" width=22% alt="long break image"/>
+    <img src="https://github.com/SDBranka/Pomodoro_Timer/blob/main/Resources/Screenshots/LongBreak_screenshot.png" width=22% height=100 alt="long break image"/>
 </p>
 
 ## Description
