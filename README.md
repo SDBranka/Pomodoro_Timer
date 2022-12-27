@@ -1,4 +1,4 @@
-# Pomodoro_Timer
+# Pomodoro Timer
 
 ##### Table of Contents
 
@@ -9,8 +9,9 @@
 ---
 
 <p float="center">
-    <img src="https://github.com/SDBranka/Miles_to_Kilometers_Converter/blob/main/Resources/screenshot0.png" width=45% alt="game start image"/>
-    <img src="https://github.com/SDBranka/Miles_to_Kilometers_Converter/blob/main/Resources/screenshot1.png" width=45% alt="game play image"/>
+    <img src="https://github.com/SDBranka/Miles_to_Kilometers_Converter/blob/main/Resources/screenshot0.png" width=33% alt="game start image"/>
+    <img src="https://github.com/SDBranka/Miles_to_Kilometers_Converter/blob/main/Resources/screenshot1.png" width=33% alt="game play image"/>
+    <img src="https://github.com/SDBranka/Miles_to_Kilometers_Converter/blob/main/Resources/screenshot1.png" width=33% alt="game play image"/>
 </p>
 
 ## Description
