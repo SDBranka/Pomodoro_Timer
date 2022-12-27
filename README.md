@@ -17,7 +17,7 @@
 
 ## Description
 
-This app aids in a users studying or working process by providing a timer based on Francesco Cirillo's Pomodoro Technique.
+This app aids in a user's studying or working process by providing a timer based on Francesco Cirillo's Pomodoro Technique for improved performance and/or retention.
 
 ##### Controls
 <ul>

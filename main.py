@@ -8,13 +8,13 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-# WORK_MIN = 25
-# SHORT_BREAK_MIN = 5
-# LONG_BREAK_MIN = 20
+WORK_MIN = 25
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 20
 # For testing purposes
-WORK_MIN = .1
-SHORT_BREAK_MIN = .1
-LONG_BREAK_MIN = .1
+# WORK_MIN = .1
+# SHORT_BREAK_MIN = .1
+# LONG_BREAK_MIN = .1
 reps = 0
 timer = None
 
@@ -80,11 +80,11 @@ def count_down(count):
             marks += "✔"
         check_marks.config(text = marks)
 
+
 # ---------------------------- UI SETUP ------------------------------- #
 window = tkinter.Tk()
 window.title("Pomodoro Timer")
 window.config(padx = 108, pady = 54, bg = YELLOW)
-
 
 # canvas
 # so that we can use an image in the window
