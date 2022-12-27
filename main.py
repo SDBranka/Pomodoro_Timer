@@ -77,9 +77,9 @@ def count_down(count):
         global cycles
 
         # Make the window pop to forefront of screen
-        window.attributes('-topmost',True)
+        window.attributes('-topmost', True)
         # Allow for window to be pushed to the background
-        window.after_idle(window.attributes,'-topmost',False)
+        window.after_idle(window.attributes,'-topmost', False)
 
         start_timer()
         marks = ""
@@ -94,9 +94,6 @@ def count_down(count):
             cycle_marks += "✔"
         check_marks.config(text = marks)
         cycle_check_marks.config(text = cycle_marks)
-
-
-
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -117,7 +114,7 @@ timer_text = canvas.create_text(100, 135, text = "00:00",
 )
 canvas.grid(row = 1, column = 1)
 
-#"Timer" label
+#Timer label
 timer_label = tkinter.Label(text = "Timer", 
                             font = ("Arial", 35, "normal"), 
                             fg = GREEN, bg = YELLOW
@@ -143,7 +140,6 @@ reset_button = tkinter.Button(text = "Reset",
 reset_button.grid(row = 2, column = 2)
 
 # check marks
-# marks = ["✔", "✔"]
 marks = ""
 check_marks = tkinter.Label(text = marks, 
                             font = ("Arial", 16, "bold"),
