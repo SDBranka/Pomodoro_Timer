@@ -60,7 +60,7 @@ def count_down(count):
     # print(count)
     count_minutes = math.floor(count / 60)
     count_seconds = count % 60
-    # python dynamic typing (a variable can hold changeable data types ex:a = 3 a = "kkk")
+    # python dynamic typing (a variable can hold changeable data types ex:a = 3 a = "bmn")
     if count_seconds < 10:
         count_seconds = f"0{count_seconds}"
 
